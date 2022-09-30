@@ -10,7 +10,14 @@ const ReactQueryPage = () => {
   const token = useToken(loginBody)
   console.log(token)
 
-  // const { data, isLoading } = useHistory({ limit: 15 }, token)
+  // const { data, isLoading } = useHistory(
+  //   {
+  //     limit: 15,
+  //     start: new Date('2022-08-01').getTime(),
+  //     end: new Date('2022-08-30').getTime(),
+  //   },
+  //   token
+  // )
   // console.log(data)
 
   return (
