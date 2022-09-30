@@ -19,8 +19,6 @@ const Navbar = () => {
       <Link to="mui-sx">Mui SX</Link> |&nbsp;
       <Link to="mui-styling">Mui Style</Link> |&nbsp;
       <Link to="react-query">React Query</Link> |&nbsp;
-      <Link to="table-basic">Table Basic</Link> |&nbsp;
-      <Link to="table-fetch">Table Fetch</Link> |&nbsp;
     </Box>
   )
 }
